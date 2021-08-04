@@ -1,4 +1,4 @@
-package br.com.projeto_dextra.projeto_dextra.controllers;
+package br.com.projeto_dextra.controllers;
 
 import java.util.List;
 
@@ -15,10 +15,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.projeto_dextra.projeto_dextra.model.TesteTonho;
-import br.com.projeto_dextra.projeto_dextra.model.Usuario;
-import br.com.projeto_dextra.projeto_dextra.repository.TesteTonhoRepository;
-import br.com.projeto_dextra.projeto_dextra.repository.UsuarioRepository;
+import br.com.projeto_dextra.model.TesteTonho;
+import br.com.projeto_dextra.model.Usuario;
+import br.com.projeto_dextra.repository.TesteTonhoRepository;
+import br.com.projeto_dextra.repository.UsuarioRepository;
 
 /**
  *
@@ -68,5 +68,7 @@ public class GreetingsController {
 		
 		return new ResponseEntity<Usuario>(user, HttpStatus.CREATED);
     }
+    
+    //teste
     
 }

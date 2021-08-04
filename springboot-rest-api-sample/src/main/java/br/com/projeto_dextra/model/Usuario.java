@@ -1,4 +1,4 @@
-package br.com.projeto_dextra.projeto_dextra.model;
+package br.com.projeto_dextra.model;
 
 import java.io.Serializable;
 
